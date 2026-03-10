@@ -1,6 +1,7 @@
 import { useState, useEffect, useRef } from "react";
 import "./index.css";
 import Games from "./games.jsx";
+import sheepIco from "./assets/sheepico.png";
 
 // ── Data ──────────────────────────────────────────────────────
 const DEFAULT_PROJECTS = [
@@ -323,6 +324,7 @@ export default function App() {
   return (
     <>
       <canvas id="sq-canvas" ref={canvasRef} />
+<link rel="icon" type="image/png" href="/sheepico.png" />
 
       <div className="wrap">
         {/* ── Nav ── */}
