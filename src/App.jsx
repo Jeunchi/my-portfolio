@@ -4,7 +4,7 @@ import Games from "./games.jsx";
 
 // ── Data ──────────────────────────────────────────────────────
 const DEFAULT_PROJECTS = [
- {
+  {
     id: 1,
     title: "MAPuWhere?",
     description:
@@ -314,10 +314,14 @@ export default function App() {
 
   useEffect(() => { document.title = "Charles Junjie Mempin"; }, []);
 
+  // Always start at the top on load/refresh
+  useEffect(() => {
+    if ("scrollRestoration" in window.history) window.history.scrollRestoration = "manual";
+    window.scrollTo({ top: 0, left: 0, behavior: "instant" });
+  }, []);
+
   return (
     <>
-    <link rel="icon" type="image/png" href="/sheepico.png" />
-
       <canvas id="sq-canvas" ref={canvasRef} />
 
       <div className="wrap">
