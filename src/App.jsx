@@ -19,7 +19,7 @@ const DEFAULT_PROJECTS = [
     description:
       "A web platform for Greenhills Christian Fellowship where church-goers can sign up or log in to plan and create events for the church community.",
     tags: ["HTML", "CSS", "JavaScript"],
-    link: "https://github.com/Yaakov-v1/its122l-final-project-d.git",
+    link: "https://gcf-rho.vercel.app",
     accent: "#e0d4f5",
   },
 ];
