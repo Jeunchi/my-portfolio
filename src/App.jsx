@@ -10,7 +10,7 @@ const DEFAULT_PROJECTS = [
     description:
       "A campus navigation web app for Mapúa University — uses HTML, CSS, and JavaScript with cookies to help students find their way around campus.",
     tags: ["HTML", "CSS", "JavaScript", "Cookies"],
-    link: "https://github.com/Jeunchi/MAPua.git",
+    link: "https://ma-pu-where.vercel.app",
     accent: "#d4b8e0",
   },
   {
